@@ -59,7 +59,7 @@ apt-get update && apt-get upgrade -y && apt dist-upgrade -y && update-grub && re
 Perintah Install Copas ke Vps Mu<br>
 
   ```html
-apt --fix-missing update && apt update && apt upgrade -y && apt install -y wget screen && wget -q https://raw.githubusercontent.com/zenvpn/main/setup.sh && chmod +x setup.sh && screen -S setup ./setup.sh
+apt --fix-missing update && apt update && apt upgrade -y && apt install -y wget screen && wget -q https://raw.githubusercontent.com/zenvpn/v1/main/setup.sh && chmod +x setup.sh && screen -S setup ./setup.sh
 ```
 Setting Banner SSH<br>
 
